@@ -108,6 +108,8 @@ Verified against live AWS infrastructure, not a simulation:
 - Independent post-remediation verification (re-query live state after a fix)
 - Dashboard filtering, search, and basic charting over the audit log
 
-## Team
+## Author
 
-Built as a Cloud Computing minor project at Vishwakarma University, Pune (2026–27), with Prutha Marne and Soham Patil, under the guidance of Dr. Supriya Bhonsale.
+Built by **Brindha Suvarna** — architecture, implementation, and testing (Terraform, Lambda, remediation logic, dashboard).
+
+Submitted as a Cloud Computing minor project at Vishwakarma University, Pune (2026–27), with Prutha Marne and Soham Patil, under the guidance of Dr. Supriya Bhonsale.
