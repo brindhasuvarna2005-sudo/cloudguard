@@ -82,6 +82,16 @@ Verified against live AWS infrastructure, not a simulation:
 | DynamoDB table deleted (low-risk) | Yes (as create action) | Implemented & IAM-wired; not exercised live before submission |
 | Unmanaged S3 bucket created outside Terraform | No (by design) | Confirms scope is limited to the fixed protected-resource set |
 
+## Screenshots
+
+**Audit log — low-risk auto-remediation vs. high-risk escalation:**
+
+![Dashboard audit log](screenshots/dashboard-audit-log.png)
+
+**Live detection — CloudWatch logs from the drift-detector Lambda:**
+
+![CloudWatch logs](screenshots/cloudwatch-logs.png)
+
 ## Documented Limitations
 
 - Only monitors a fixed, explicitly named resource set — no discovery of unmanaged resources
